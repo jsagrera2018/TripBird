@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Atlantis the lost City';
+  src: url('Atlantis the lost City.eot'); /* IE9 Compat Modes */
+  src: url('Atlantis the lost City.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Atlantis the lost City.woff') format('woff'), /* Modern Browsers */
+       url('Atlantis the lost City.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Atlantis the lost City.svg#3915ba80e58e9d819a62d4330d518202') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ca" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta author="TripBird">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TripBird</title>
+    <style>
+    body {
+      background-color: #1F283E;
+      overflow-x: hidden;
+      margin: 0;
+
+    }
+
+    #navegacio{
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #red;
+      color: white;
+      position: fixed;
+      list-style: none;
+      z-index: 0;
+      padding-top: 50px;
+    }
+
+    #mur{
+      margin-top: 20px;
+      list-style-image: url(../img/icono_perfil.png);
+      color: white;
+    }
+
+    #notificacions{
+      margin-top: 20px;
+      list-style-image: url(../img/icono_notificaciones.png);
+      color: white;
+    }
+
+    #explorar{
+      margin-top: 20px;
+      list-style-image: url(../img/icono_explora.png);
+      color: white;
+    }
+
+    #ranking{
+      margin-top: 20px;
+      list-style-image: url(../img/icono_ranking.png);
+      color: white;
+    }
+
+    #valora{
+      margin-top: 20px;
+      list-style-image: url(../img/icono_valora.png);
+      color: white;
+    }
+
+    #legal{
+      margin-top: 20px;
+      list-style-image: url(../img/icono_legal.png);
+      color: white;
+    }
+
+    #amics{
+      margin-top: 20px;
+      list-style-image: url(../img/amics.png);
+      color: white;
+    }
+
+    #destinacio{
+      margin-top: 20px;
+      list-style-image: url(../img/destinacio.png);
+      color: white;
+    }
+
+
+
+
+    .tot{
+      width: 100%;
+      height: 1400px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: green;
+      list-style: none;
+      position: relative;
+      z-index: 1;
+    }
+    .activador{
+      position: absolute;
+      clip: rect(0,0,0,0);
+    }
+
+    label[for="activador"]{
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 2;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      background-image: url(../img/menu.png);
+      background-size: 100%;
+    }
+    .activador:checked + label {left: 215px;}
+    .activador:checked ~ .tot {left: 200px;}
+
+    .activador:checked + label, .tot{
+      transition: left 0.3s;
+    }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/estils00.css">
+  </head>
+  <body>
+
+    <ul id="navegacio">
+      <a class="sub_link" href="perfil.html"><li id="mur" class="menu">Perfil</li></a>
+      <a class="sub_link" href="amics.html"><li id="amics" class="menu">Amics</li></a>
+      <a class="sub_link" href="notificacions.html"><li id="notificacions" class="menu">Notificacions</li></a>
+      <a class="sub_link" href="destinacio.html"><li id="destinacio" class="menu">Destinacions</li></a>
+      <a class="sub_link" href="explora.html"><li id="explorar" class="menu">Explorar</li></a>
+      <a class="sub_link" href="ranking.html"><li id="ranking" class="menu">Ranking</li></a>
+      <a class="sub_link" href="https://play.google.com/store/apps?hl=es"><li id="valora" class="menu">Valora l'app</li></a>
+      <a class="sub_link" href="legal.html"><li id="legal" class="menu">Pàgina legal</li></a>
+    </ul>
+
+    <input type="checkbox" id="activador" class="activador" />
+    <label for="activador"></label>
+
+    <div class="tot" id="perfil">
+      <div id="barra">
+        <img id="naming" src="../img/TripBirdLetra.png" />
+        <input class="buscador" type="search" placeholder="Buscar...">
+      </div>
+
+      <div id="container1">
+        <div class="titulo"><h1 id="lugar">França-Paris</h1>
+        </div>
+
+        <div class="persones">
+          <div>
+            <img id="zahara" src="../img/FotoZahara.jpg">
+          </div>
+          <div class="nom">
+            <p>Zahara Ruiz <br> 21 anys</p>
+          </div>
+          <div class="viatje">
+            <p>També vol viatjar a Paris!</p>
+          </div>
+          <form action="chat.html">
+            <input id="conecta" type="submit" value="Connecta!">
+          </form>
+        </div>
+
+        <div class="persones">
+          <div>
+            <img id="zahara" src="../img/FotoAlejandro.jpg">
+          </div>
+          <div class="nom">
+            <p>Alejandro Moreno <br> 21 anys</p>
+          </div>
+          <div class="viatje">
+            <p>També vol viatjar a Paris!</p>
+          </div>
+          <form action="chat1.html">
+            <input id="conecta" type="submit" value="Connecta!">
+          </form>
+        </div>
+
+        <div class="persones">
+          <div>
+            <img id="zahara" src="../img/FotoJoan.jpg">
+          </div>
+          <div class="nom">
+            <p>Joan Sagrera <br> 21 anys</p>
+          </div>
+          <div class="viatje">
+            <p>També vol viatjar a Paris!</p>
+          </div>
+          <form action="chat1.html">
+            <input id="conecta" type="submit" value="Connecta!">
+          </form>
+        </div>
+
+        <div class="persones">
+          <div>
+            <img id="zahara" src="../img/FotoZahara.jpg">
+          </div>
+          <div class="nom">
+            <p>Zahara Ruiz <br> 21 anys</p>
+          </div>
+          <div class="viatje">
+            <p>També vol viatjar a Paris!</p>
+          </div>
+          <form action="chat1.html">
+            <input id="conecta" type="submit" value="Connecta!">
+          </form>
+        </div>
+
+        <div class="persones">
+          <div>
+            <img id="zahara" src="../img/FotoAlejandro.jpg">
+          </div>
+          <div class="nom">
+            <p>Alejandro Moreno <br> 21 anys</p>
+          </div>
+          <div class="viatje">
+            <p>També vol viatjar a Paris!</p>
+          </div>
+          <form action="chat1.html">
+            <input id="conecta" type="submit" value="Connecta!">
+          </form>
+        </div>
+
+        <div class="persones">
+          <div>
+            <img id="zahara" src="../img/FotoJoan.jpg">
+          </div>
+          <div class="nom">
+            <p>Joan Sagrera <br> 21 anys</p>
+          </div>
+          <div class="viatje">
+            <p>També vol viatjar a Paris!</p>
+          </div>
+          <form action="chat1.html">
+            <input id="conecta" type="submit" value="Connecta!">
+          </form>
+        </div>
+
+
+
+        <div id="barra_inferior">
+          <div id="iconos">
+            <a href="ranking.html"><img id="ranking_barra" src="../img/icono_ranking_barra_gris.png" /></a>
+            <a href="chat.html"><img id="chat_barra" src="../img/icono_chat_gris.png" /></a>
+            <a href="explora.html"><img id="explora_barra" src="../img/icono_explora_barra.png" /></a>
+            <a href="perfil.html"><img id="perfil_barra" src="../img/icono_perfil_barra_gris.png" /></a>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

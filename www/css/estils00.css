@@ -1,0 +1,808 @@
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/Gotham Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham Book.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Gotham Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham Book.svg#65526539dec42e535893223c14767f58') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Atlantis the lost City';
+  src: url('../fonts/Atlantis_the_lost_City.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Atlantis_the_lost_City.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Atlantis_the_lost_City.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Atlantis_the_lost_City.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Atlantis_the_lost_City.svg#3915ba80e58e9d819a62d4330d518202') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+  /*Body splah screen*/
+
+body {
+  font-size: 1.2em;
+  font-family: Arial;
+  color: white;
+  margin-top: 60px;
+  font-family: 'Gotham Book';
+}
+
+#splash{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+/*CSS splash screen*/
+
+/*CSS login*/
+
+#inici{
+  background-image: url(../img/fons1.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  font-family: 'Gotham Book';
+}
+
+#container{
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+#entra input{
+  background-color: #1F283E;
+  color: white;
+  border-radius: 10px;
+}
+
+.login{
+  height: 35px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+#usuari{
+  background-image: url(../img/usuari.png);
+  font-family: helvetica;
+}
+
+
+#contrasenya{
+  background-image: url(../img/contrasenya.png);
+  font-family: helvetica;
+}
+
+#accedeix{
+  height: 35px;
+  width: 70%;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#oblidat{
+width: 50%;
+margin: 0 auto;
+margin-top: 30px;
+
+
+}
+#oblidat li{
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  list-style-type: none;
+  color: #1F283E;
+  font-size: 14px;
+  text-align: center;
+  border-top: solid 3px #1F283E;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+#xarxes{
+  margin: 0 auto;
+  margin-top: -25px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: auto;
+  left: 0;
+}
+
+.xarxes{
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+.sub_link {
+text-decoration: none;
+}
+
+/*CSS login*/
+
+
+/*CSS registre*/
+#registre{
+  background-color: #1F283E;
+  text-align: center;
+  margin: 25px auto;
+}
+
+#container1{
+  width: 80%;
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#letra{
+  margin-bottom: 25px;:
+}
+
+.info{
+  height: 35px;
+  width: 98%;
+  text-align: left;
+  font-size: 18px;
+  margin: 12px auto;
+  padding: 1%;
+}
+
+.alineacio{
+height: 20px;
+width: 25%;
+float: right;
+padding: 1%;
+border-radius: 10px;;
+}
+
+#condicions{
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  overflow: scroll;
+}
+
+#botones{
+width: 100%;
+height: 40px;
+font-size: 12px;
+}
+
+#inciar{
+width: 20%;
+height: 40px;
+margin-top: 20px;
+margin-left: 20%
+}
+
+/*CSS registre*/
+
+/*CSS Gracies per registrarse*/
+
+#gracies{
+  background-color: white;
+  text-align: center;
+  margin: 80px auto;
+
+}
+
+#container1{
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+.benvinguda{
+  color: #1F283E;
+  line-height: 25px;
+}
+
+#accedeix{
+  background-color: #1F283E;
+  height: 35px;
+  width: 60%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  border-radius: 10px;
+}
+
+/*CSS Gracies per registrarse*/
+
+/*CSS Perfil*/
+
+#perfil{
+  background-color: white;
+  margin: 0 auto;
+}
+
+#barra{
+  height: 60px;
+  width: 100%;
+  background-color: #1F283E;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  text-align: center;
+}
+
+#naming{
+  display: inline-block;
+  width: 110px;
+  height: auto;
+  margin: 0 auto;
+  margin-top:7px;
+  margin-left: 18%;
+  text-align: center;
+}
+
+.buscador{
+  float: right;
+  width: 15%;
+  margin-right: 2%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+#barra_inferior{
+  height: 60px;
+  width: 100%;
+  background-color: #1F283E;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 201;
+}
+
+#iconos{
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+#ranking_barra{
+  margin-left: 0.5%;
+}
+
+#chat_barra{
+  margin-left: 10%;
+}
+
+#explora_barra{
+  margin-left: 10%;
+}
+
+#perfil_barra{
+  margin-left: 10%;
+}
+
+.perfil_info{
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 320px;
+  height: 180px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#foto_carnet{
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+#info{
+  display: inline-block;
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+  float: left;
+  color: #1F283E;
+  margin-left: 27px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#edad{
+  margin-top: -20px;
+  font-size: 17px;
+}
+
+#descripcio{
+  float: left;
+  width: 50%;
+  max-width: 150px;
+  height: 100px;;
+  background-color: #1F283E;
+  color: white;
+  font-family: 'Gotham Book';
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -10px;
+  margin-left: 15px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+#edita_perfil{
+  background-color: #1F283E;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#edita_perfil_text{
+  font-size: 12px;
+  color: white;
+}
+
+#realitzats{
+  display: inline-block;
+  font-size: 16px;
+  color: #1F283E;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+
+#previstos{
+  display: inline-block;
+  font-size: 16px;
+  color: #1F283E;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.mapa{
+  width: 320px;
+  height: auto;
+}
+
+.veure{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1F283E;
+  text-align: right;
+  margin-top: 18px;
+  margin-left: 183px;
+}
+
+.mes{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1F283E;
+  text-align: right;
+  margin-top: 18px;
+  border-left: 2px solid #1F283E;
+  padding: 2px;
+}
+
+/*CSS Perfil*/
+
+
+/*CSS Explora*/
+
+.llocs{
+  display: inline-block;
+  margin-top: 40px;
+  width: 270px;
+  height: 180px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#brasilia{
+  background-image: url(../img/Brasilia.jpg);
+  background-repeat: no-repeat;
+}
+
+#rio{
+  background-image: url(../img/RioDeJaneiro.jpg);
+  background-repeat: no-repeat;
+}
+
+#paulo{
+  background-image: url(../img/SaoPaulo.jpg);
+  background-repeat: no-repeat;
+}
+
+#curitiba{
+  background-image: url(../img/curitiba.jpg);
+  background-repeat: no-repeat;
+}
+
+#belo{
+  background-image: url(../img/belo.jpg);
+  background-repeat: no-repeat;
+}
+
+#alegre{
+  background-image: url(../img/porto.jpg);
+  background-repeat: no-repeat;
+}
+
+.noms{
+  width: 270px;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Atlantis the lost City';
+  font-size: 22px;
+  color: #1F283E;
+}
+
+.transparent{
+  width: 270px;
+  height: 50px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: white;
+  opacity: 0.3;
+}
+
+/*CSS Explora*/
+
+
+/*CSS Viatjers*/
+
+#lugar{
+  font-family: 'Atlantis the lost City';
+  font-size: 30px;
+  color: #1F283E;
+  margin-top: 20px;
+}
+
+.titulo{
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.persones{
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 180px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1F283E;
+}
+
+#zahara{
+  float: left;
+  height: 180px;
+  width: auto;
+  border-radius: 20px;
+}
+
+.nom{
+  float: left;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.viatje{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-top: -50px;
+}
+
+#conecta{
+  width: 90px;
+  margin-top: 8px;
+  font-size: 16px;
+  color: #1F283E;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+/*CSS Viatjers*/
+
+/*CSS Ranking*/
+#ranking_titulo{
+  font-family: 'Atlantis the lost City';
+  font-size: 30px;
+  color: #1F283E;
+  margin-top: 10px;
+}
+.ranking_llocs{
+  display: inline-block;
+  margin-top: 15px;
+  width: 270px;
+  height: 180px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#paris{
+  background-image: url(../img/paris.jpg);
+  background-repeat: no-repeat;
+}
+
+#londres{
+  background-image: url(../img/londres.png);
+  background-repeat: no-repeat;
+}
+
+#berlin{
+  background-image: url(../img/berlin.jpg);
+  background-repeat: no-repeat;
+}
+
+#roma{
+  background-image: url(../img/roma.png);
+  background-repeat: no-repeat;
+}
+
+#amsterdam{
+  background-image: url(../img/amsterdam.jpg);
+  background-repeat: no-repeat;
+}
+
+#pisa{
+  background-image: url(../img/pisa.jpg);
+  background-repeat: no-repeat;
+}
+
+/*CSS Ranking*/
+
+/*CSS Oblidat la contrasenya*/
+#container2{
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.logotip {
+  width: 330px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#recuperar{
+  width: 170px;
+}
+
+.recuperar{
+  color: #1F283E;
+  line-height: 25px;
+}
+
+/*CSS Oblidat la contrasenya*/
+
+/*Chat*/
+
+#container3{
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.persones_chat{
+  width: auto;
+  height: auto;
+  font-family: 'Atlantis the lost City';
+  color: #1F283E;
+  float: left;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.foto_carnet{
+  height: 90px;
+  width: 90px;
+  border: solid 2px #CCC;
+  border-radius: 200px;
+  float: left;
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #aaa;
+}
+
+#alejandro{
+  clear: both;
+}
+
+#joan{
+  clear: both;
+  margin-top: 50px;
+}
+
+#ruiz{
+  clear: both;
+}
+
+#container4{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(../img/fons1.png);
+  background-repeat: no-repeat;
+}
+
+.conver_izq{
+  width: 90%;
+  height: auto;
+  color: white;
+  background-color: #1F283E;
+  float: left;
+  margin-top: 25px;
+  padding: 0;
+  opacity: 0.5;
+  border-radius: 25px;
+  line-height: 18px;
+}
+
+.conver_der{
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  color: white;
+  background-color: #1F283E;
+  float: right;
+  margin-top: 25px;
+  border-radius: 25px;
+  line-height: 18px;
+}
+
+.text{
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+#escriu{
+  width: 100%;
+  height: 25px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+
+}
+/*Chat*/
+
+/*Pàgina legal*/
+
+.legal{
+  display: inline-block;
+  margin-top: 20px;
+  font-family: 'Atlantis the lost City';
+  color: #1F283E;
+  width: 100%;
+}
+
+#pagina_legal{
+  margin-top: 10px;
+  width: 70%;
+  max-width: 400px;
+  height: 1200px;
+}
+
+/*Pàgina legal*/
+
+/*introduir_realitzats*/
+
+#descripcio_input{
+  float: left;
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+  background-color: #1F283E;
+  color: white;
+  font-family: 'Gotham Book';
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: 15px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+#puja{
+  background-color: #1F283E;
+  float: left;
+  width: 135px;
+  margin-top: -35px;
+  border-radius: 10px;
+}
+/*introduir_realitzats*/
+
+/*introduir_previstos*/
+
+#dates{
+  float: left;
+  display: inline-block;
+  color: #1F283E;
+  margin-top: 30px;
+}
+
+.data_viatje{
+  width: 150px;
+}
+
+#boto_programar{
+  height: 35px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#programar{
+  background-color: #1F283E;
+  width: 135px;
+  height: 15px;;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
+}
+
+/*introduir_previstos*/
+
+@media screen and (min-width: 481px){
+  #splash{
+    width: 500px;
+    height: auto;
+    text-align: center;
+  }
+  #inici{
+    background-image: url(../img/fons.jpg);
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    font-family: 'Gotham Book';
+  }
+
+  #container4{
+    background-image: url(../img/fons.jpg);
+    background-repeat: no-repeat;
+  }
+
+}
